@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body class="govuk-template__body">
+    {% include navigation.html %}
+    {% include prototype.html %}
+    <div class="govuk-width-container">
+      {{ content }}
+      <div>
+        <h2>"This is additional content to test the layouts"</h2>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
